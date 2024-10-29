@@ -10,6 +10,8 @@ https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishav
 - exploits internal appendMemcpy function
 ## dollarVm
 - enable set `JSC_useDollarVM=true` in env or pass `--useDollarVM=1` on the cmdline
+- `JSC_useDollarVM=true bun repl`
+- `JSC_useDollarVM=true /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc`
 ### functions
 https://github.com/WebKit/WebKit/blob/8471a1156fd686d067c8ac4b6ce60b919738db76/Source/JavaScriptCore/builtins/BuiltinNames.h
 ### builtin functions
