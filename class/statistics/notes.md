@@ -13,8 +13,9 @@
 ### central limit theorem
 - only applies to sampling distributions for the mean
 - sample size must be greater than or equal to 30
-
-# 1 sample t interval for population mean
+# intervals and means
+Use an interval when the question asks for *how much different* or an *estimation*, and use test for when the question asks for *yes or no answer*.
+## 1 sample t interval for population mean
 ### use case
 - sample size is less than 30
 - population standard deviation is unknown
@@ -34,12 +35,17 @@ $t^* = (\text{find from table B, with df} = n - 1, \text{confidence level} = 1.0
 > Stapplet/calculator can also be used to calculate $t^*$.
 
 $\overline x \pm t^* \cdot stderr$
-# 1 sample t test for population mean
+## 1 sample t test for population mean
 ### use case
 - see [[#1 sample t interval for population mean#use case]]
 ### conditions
 - see [[#1 sample t interval for population mean#conditions]]
 ### calculations
+$\overline x = \text{sample mean}$
+$s = \text{standard deviation of the sample}$
+$t = (\overline x - \mu_0) \cdot \frac{\sqrt n}{s}$
+$\text{p-value} = (\text{T distribution})(t, \text{degrees of freedom} = n - 1, \text{confidence level = ?})$
+> Use central area for difference, right tail for greater than, left tail for less than.
 
 > A matched pairs difference experiment can be decomposed into a 1 sample t test for population mean with $\mu_0 = 0$.
 
