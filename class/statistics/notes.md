@@ -21,7 +21,7 @@
 ### conditions
 - data must be random ([[#random sampling]])
 - data must be independent ([[#10% rule]])
-	- does not apply when sample is not a random sample
+	- does not apply when sample is not a random sample using random assignment
 - data must be normal
 	- meet the [[#central limit theorem]]
 	- already be normal
@@ -29,8 +29,9 @@
 ### calculations
 $s = \text{standard deviation of sampling distribution}$
 $stderr = \frac{s}{\sqrt n}$
-$t^* = (\text{find from table B, with df = n - 1})$
+$t^* = (\text{find from table B, with df} = n - 1, \text{confidence level} = 1.0 - \alpha)$
 > $t^*$ is required to adjust the standard error calculation, since we are using the *sample* standard deviation instead of the *population* standard deviation. $df$ stands for *degrees of freedom*.
+> Stapplet/calculator can also be used to calculate $t^*$.
 
 $\overline x \pm t^* \cdot stderr$
 # 1 sample t test for population mean
