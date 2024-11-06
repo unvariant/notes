@@ -13,8 +13,22 @@
 ### central limit theorem
 - only applies to sampling distributions for the mean
 - sample size must be greater than or equal to 30
-# intervals and means
+# intervals and tests
 Use an interval when the question asks for *how much different* or an *estimation*, and use test for when the question asks for *yes or no answer*.
+## intervals
+1. calculate standard error
+2. calculate adjustment value
+	- for proportions, take the confidence level and plug it into a z-score calculator for a normal distribution ($\mu=0$, $\sigma=1$). $z^* = \text{z-score}$
+	- for means, take the confidence level and plug it into a t-distribution calculator with the appropriate degrees of freedom. $t^* = \text{t-value}$
+3. margin of error is adjustment value times the standard error
+4. interval is the mean $\pm$ margin of error
+## tests
+1. calculator standard error
+2. calculate test statistic $\frac{mean}{\text{standard error}}$
+3. calculate p-value
+	- for proportions, plug into normal distribution
+	- for means, plug into t-distribution
+	- remember *Use central area for difference, right tail for greater than, left tail for less than.*
 ## 1 sample t interval for population mean
 ### use case
 - sample size is less than 30
