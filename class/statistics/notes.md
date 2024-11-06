@@ -43,7 +43,7 @@ Use an interval when the question asks for *how much different* or an *estimatio
 > $\alpha$ and $\beta$ are related. That is an increase in $\alpha$ means an decrease in $\beta$, and vice versa. However $\alpha + \beta$ does not necessarily equal 1. Since power is defined as $1-\beta$, an increase in alpha causes a decrease in $\beta$ and an increase in power.
 ## tests
 1. calculator standard error
-2. calculate test statistic $\frac{mean}{\text{standard error}}$
+2. calculate test statistic $\frac{\text{mean}}{\text{standard error}}$
 3. calculate p-value
 	- for proportions, plug into normal distribution
 	- for means, plug into t-distribution
