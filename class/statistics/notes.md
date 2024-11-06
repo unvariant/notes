@@ -22,6 +22,25 @@ Use an interval when the question asks for *how much different* or an *estimatio
 	- for means, take the confidence level and plug it into a t-distribution calculator with the appropriate degrees of freedom. $t^* = \text{t-value}$
 3. margin of error is adjustment value times the standard error
 4. interval is the mean $\pm$ margin of error
+#### Type I error
+- accepting $H_a$ as true, when it is false (AKA false positive)
+- alternatively rejecting $H_0$ as false, when it is true
+- the probability of a Type I error is the same as the alpha ($\alpha$) value
+#### Type II error
+- accepting $H_a$ as false, when it is true (AKA false negative)
+- alternatively accepting $H_0$ as true, when it is false
+- the probability of a Type II error is the same as the beta ($\beta$) value
+#### Power
+- the power of a test is the probability of rejecting $H_0$ when it is false
+- rephrased: the power of the test is the probability of making a correct decision
+- the power of a test is equal to $1-\beta$
+###### Ways to increase power
+1. increasing sample size (indirectly decreases standard error)
+2. increasing effect size
+> difference between the true population parameter and your sample parameter
+3. decreasing standard error
+4. increase alpha
+> $\alpha$ and $\beta$ are related. That is an increase in $\alpha$ means an decrease in $\beta$, and vice versa. However $\alpha + \beta$ does not necessarily equal 1. Since power is defined as $1-\beta$, an increase in alpha causes a decrease in $\beta$ and an increase in power.
 ## tests
 1. calculator standard error
 2. calculate test statistic $\frac{mean}{\text{standard error}}$
