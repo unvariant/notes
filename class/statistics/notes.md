@@ -32,7 +32,7 @@ Use an interval when the question asks for *how much different* or an *estimatio
 - the probability of a Type II error is the same as the beta ($\beta$) value
 #### Power
 - the power of a test is the probability of rejecting $H_0$ when it is false
-- rephrased: the power of the test is the probability of making a correct decision
+- rephrased: the power of the test is the probability of correctly accepting $H_a$
 - the power of a test is equal to $1-\beta$
 ###### Ways to increase power
 1. increasing sample size (indirectly decreases standard error)
@@ -82,3 +82,31 @@ $\text{p-value} = (\text{T distribution})(t, \text{degrees of freedom} = n - 1, 
 
 > A matched pairs difference experiment can be decomposed into a 1 sample t test for population mean with $\mu_0 = 0$.
 
+# chi squared test
+```mermaid
+flowchart TD
+	chi[chi squared test]
+	first[
+	1 variable
+	1 group]
+	second[
+	1 variable
+	2+ groups]
+	third[
+	2 variables
+	1 group]
+	2way[two way table]
+	gof[test for goodness of fit]
+	homo[test for homogeneity]
+	inde[test for independence/association]
+	chi --> first --> gof
+	chi --> 2way
+	2way --> second --> homo
+	2way --> third --> inde
+```
+## test for goodness of fit
+Testing the distribution of proportions for a single categorical variable against the expected proportions (e.g. a six sided dice).
+## test for homogeneity
+Used to compare distributions from a random sample or randomized experiment, with a single categorical variable but multiple groups.
+## test for independence/association
+Test to see if two different categorical variables are associated.
