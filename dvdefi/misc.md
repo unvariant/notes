@@ -2,8 +2,10 @@
 To avoid floating point inaccuracies that come with varying hardware, solidity uses fixed point arithmetic instead of floating point. Tokens define a decimal value that represents how many decimals of precision the token supports.
 ### example
 ExampleToken with 5 decimals of precision.
-`100000 == 1        Example Token`
-`1      == 1/100000 Example Token`
+```
+100000 == 1        Example Token
+1      == 1/100000 Example Token
+```
 ## ETH
 Ethereum currency used in transactions.
 ## WEI
