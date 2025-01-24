@@ -100,3 +100,14 @@ The federal government was unable to collect federal taxes, and therefore unable
 ##### (B) Describe how this scenario influenced the framers' decisions in creating the Constitution
 The federal government created by the Articles of Confederation was far too weak and had no power to respond to nation emergencies. This influenced the Constitution in the decisions to give Congress that authority to tax and maintain its own army. 
 ##### (C) Explain how an additional governing issue made Shays' Rebellion a decisive point in the creation of the U.S. Republic
+# 2025-01-21
+#### denied powers
+- powers specifically denied to either national or state governments
+- ex) states may not enter into foreign relation agreements on their own
+#### guarantees to the state
+- republican form of government
+- federal government must protect that states
+- an attack on one state is considered an attack on all states
+
+poland first week of october (2 days)
+toyko first weekend of november (2 days)
